@@ -1,0 +1,109 @@
+body {
+    margin:0;
+    padding:0;
+}
+#esquerda {
+    float: left;
+    width:1%;
+    position: fixed;
+}
+#direita {
+    float: right;
+    width:10%;
+    height: 50%;
+}
+#geral {
+    width:70%;
+    margin:0 auto;
+    background: white;
+}
+#cabecalho {
+    padding:15px;
+}
+#conteudo-1 {
+    float:left;
+    padding:10px;
+}
+#rodape {
+    clear:both;
+    padding:15px;
+}
+#conteudo-2-1 {
+    float:right;
+    width:50%;
+}
+#conteudo-2-2 {
+    float:left;
+    width:50%;
+}
+.negrito {
+    font-weight: bold;
+}
+.laranja {
+    color: orange;
+}
+.verde {
+    color: green;
+}
+.esconder {
+    font-size: 1px;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(172, 194, 152);
+    height: auto;
+    width: 100vw;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.caixa-slideshow {
+    height: 80%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    background-color: white;
+}
+
+.meus-slides {
+    display: none;
+}
+
+h1 {
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(172, 194, 152);
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+h3 {
+    text-align: center;
+    font-size: 15px;
+}
